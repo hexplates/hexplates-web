@@ -1,0 +1,60 @@
+baseurl = "https://wwww.hexplates.com" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "docs"
+
+author = "Lodrina Cherne"
+title = "Hexplates | Lodrina Cherne"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Lodrina Cherne"
+intro = "DFIR, Powerlifting Champion"
+description = "@hexplates, @cybereason, @sansdfir"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "hexplates"
+linkedin = "lodrinacherne"
+twitter = "hexplates"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Theme by Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+#[[menu.main]]
+#    name = "blog"
+#    weight = 100
+#    identifier = "blog"
+#    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "SANS schedule"
+    identifier = "SANS teaching"
+    weight = 200
+    url = "/sans/"
